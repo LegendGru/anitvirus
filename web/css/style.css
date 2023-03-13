@@ -1,0 +1,215 @@
+.home {
+    background-image: url('./../images/index-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: #0078A9;
+}
+
+.main .home .content {
+    max-width: 70rem;
+    text-align: left;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+.main .home .content .home-title {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0rem 0;
+    margin-left: 35%;
+    margin-top: -30%;
+
+}
+
+.main .home .content .home-desc {
+    font-size: 1.6rem;
+    color: #eee;
+    text-transform: capitalize;
+    padding: 0rem 0;
+    line-height: 2rem;
+    margin-left: 35%;
+}
+
+.cards {
+    background-image: url('./../images/emptyshield.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}
+
+.code {
+    background-image: url('./../svg/watermark.svg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}
+
+.awards {
+    background-image: url('./../images/c-prot-awards.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    background-image: url('./../images/index2-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}
+
+.licance {
+    background-image: url('./../svg/watermark.svg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+
+}
+
+.test-p {
+    border-bottom: 1px solid #c0bebe;
+    color: black;
+    margin: 0px 0 1px;
+    padding: 0 0 0px 0;
+}
+
+.test-h2 {
+    border-bottom: 3px solid aliceblue;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 0 0px 0;
+    text-transform: uppercase;
+}
+
+.licance-h1 {
+    color: #003580;
+}
+
+.lcnbtn {
+    background: transparent;
+    color: #000000;
+}
+
+.lcnbtn:hover {
+    background: transparent;
+    color: #000000;
+
+}
+
+.list {
+    align-items: start;
+    list-style: none;
+    align-items: start;
+}
+
+.list-p {
+    border-bottom: 1px black solid;
+    margin-bottom: -1%;
+    margin-left: -20%;
+}
+
+.button {
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    block-size: 30px;
+    font-size: 14px;
+    margin: 20px 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.active{
+    border-radius: 4px 4px 0px 0px;
+    width: 200px;
+      height:40px;
+      background-image:linear-gradient(to right,rgb(29, 135, 177),rgb(27, 56, 144));
+    color: aliceblue;
+    font-size: 50;
+    margin-left: 90px;
+}
+
+.line{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 60%;
+    height: 1px;;
+    background: aliceblue;
+}
+
+.footer-list{
+    list-style-type: none;
+    display: inline;
+}
+
+
+.cssCircle {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+
+    width: 13px;
+    height: 13px;
+    padding: 0px;
+
+    background: #00a8c6;
+    border: 1px solid #009ad6;
+    color: #000000;
+    text-align: center;
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -ms-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+    transition: color 0.2s linear;
+
+    font: 13px Arial, sans-serif
+}
+
+.cssCircle:hover {
+    background: #3F69A0;
+    cursor: pointer;
+}
+
+.minusSign {
+    line-height: 0.9em;
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+
+.plusSign {
+    line-height: 1.1em;
+}
+
+.minusSign:hover,
+.plusSign:hover {
+    color: white;
+}
